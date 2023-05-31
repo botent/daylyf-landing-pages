@@ -42,57 +42,59 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
-<body class="bg-[#f7f1ed] font-['Quicksand']">
+<body class="bg-[#f7f1ed] font-['Quicksand'] overflow-x-hidden">
+    <nav class="container mx-auto w-full flex flex-row items-center justify-start p-6">
+        <img src="/assets/Logo.webp" class="h-12" />
+        <p class="text-xl font-semibold -tw-ml-4 text-[#323e56]">DayLyf</p>
+    </nav>
     <section class="flex flex-col">
-        <div class="container mx-auto w-full flex flex-row items-center justify-start">
-            <img src="/assets/logo_daylyf.webp" class="h-24 p-4" />
-            <p class="text-xl font-semibold  text-[#323e56]">DayLyf</p>
-        </div>
-        <div class="mx-4 flex flex-row items-center justify-center space-x-24 text-[#323e56] mb-4"
-            style="height: 90vh;">
-            <div class="text-start mb-6 w-2/5 ">
-                <h1 class="font-bold text-6xl mb-6  font-['Poppins']">Discover the Secrets of Your City</h1>
-                <p>Unlock local secrets and never miss out. Explore, save, and experience the best places through our
-                    app</p>
-                <button class="py-2 px-4 rounded-[12px] mt-8 border border-black hover:bg-[#323e56] hover:text-white"><i
-                        class="fa-brands fa-apple mr-2"></i>Coming soon to App Store</button>
+        <div>
+            <!-- Start -->
+            <div class="w-full">
+                <div
+                    class="absolute top-32 -left-1 md:top-0 -md:left-4 w-40 h-40 md:w-72 md:h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob">
+                </div>
+                <div
+                    class="absolute top-16 -right-1 md:top-0 -md:right-4 w-40 h-40 md:w-72 md:h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000">
+                </div>
+                <div
+                    class="absolute -bottom-8 left-20 w-40 h-40 md:w-72 md:h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000">
+                </div>
+                <div class="m-8 relative space-y-4"></div>
             </div>
-            <img src="/assets/List of places DayLyf Landing Page.webp" class="w-[320px] drop-shadow-lg" />
-        </div>
-        <div class="mx-4 flex flex-row items-center justify-center space-x-48 text-[#323e56] mb-4"
-            style="height: 90vh;">
-            <img src="/assets/Detail view of places DayLyf Landing Page.webp" class="w-[320px] drop-shadow-lg" />
-            <div class="text-start mb-6 w-1/5 ">
-                <h1 class="font-bold text-4xl mb-6  font-['Poppins']">Find Local Spots</h1>
-                <p class="mb-8">Explore the Hidden Gems in Your City and Uncover New Adventures</p>
-                <h1 class="font-bold text-4xl mb-6  font-['Poppins']">Cherish your memories</h1>
-                <p class="mb-8">Click pictures, log events, and collect those wonderful enriching moments</p>
+            <!-- End -->
+            <div class="flex flex-col w-full md:flex-row items-center justify-center mb-4" style="height: 90vh;">
+                <div class="flex-none text-center md:text-start mb-6 mt-32 md:mt-0 w-full md:w-5/12 rounded-lg p-6 z-50">
+                    <h1 class="text-4xl md:text-8xl mb-4 md:mb-12 md:py-4 font-['Fugaz_One']">
+                        Discover the Secrets of Your City</h1>
+                    <p class="mt-4 text-lg">Unlock local secrets and never miss out. Explore, save, and experience the best places through
+                        our
+                        app</p>
+                    <button
+                        class="py-4 px-4 rounded-[12px] bg-black mt-8 border-r-4 border-b-4 border-green-500 text-white text-[14pt]"><i
+                            class="fa-brands fa-apple mr-2"></i>Coming soon to App Store</button>
+                </div>
+                <div class="flex flex-col items-center justify-center w-full mt-12 md:mt-0 md:w-3/12 z-50">
+                    <img src="/assets/meta/Image_Hero.svg" class="" />
+                </div>
             </div>
-        </div>
-        <div class="mx-4 flex flex-row items-center justify-center space-x-48 text-[#323e56] mb-4"
-            style="height: 90vh;">
-            <div class="text-start mb-6 w-1/5 ">
-                <h1 class="font-bold text-4xl mb-6  font-['Poppins']">Get recommended places</h1>
-                <p class="mb-8">Let Us Do the Planning for You and Discover the Best Places to Visit with DayLyf's
-                    Expert Recommendations according to your preferences</p>
-                <h1 class="font-bold text-4xl mb-6  font-['Poppins']">Invite your friends</h1>
-                <p class="mb-8">Share the Fun with Your Friends (or dates) and Make Memories That Last a Lifetime</p>
-            </div>
-            <img src="/assets/Profile DayLyf Landing Page.webp" class="w-[320px] drop-shadow-lg" />
-        </div>
         </div>
         <footer class="px-4 py-8 dark:bg-gray-800 dark:text-gray-400">
-            <div class="container flex w-full items-center justify-center mx-auto space-y-4 sm:justify-between sm:space-y-0">
+            <div
+                class="container flex w-full items-center justify-center mx-auto space-y-4 sm:justify-between sm:space-y-0">
                 <div class="flex flex-col w-full items-center pr-3">
                     <img src="/assets/logo_daylyf.webp" class="h-12 w-12 mb-4" />
                     <ul class="flex flex-wrap items-center space-x-4 sm:space-x-8">
-                        <li>&copy;  SwiftSkill Limited 2023</li>
+                        <li>&copy; SwiftSkill Limited 2023</li>
+                        <li>
+                            <a href="/privacy.html">Privacy Policy</a>
+                        </li>
                     </ul>
                 </div>
             </div>
