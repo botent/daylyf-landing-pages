@@ -61,92 +61,165 @@
 
 </head>
 
-<body class="bg-[#f7f1ed] font-['Quicksand'] overflow-x-hidden">
-    <nav class="container mx-auto w-full flex flex-row items-center justify-start p-6">
-        <img src="/assets/Logo.webp" class="h-12" />
-        <p class="text-xl font-semibold -tw-ml-4 text-[#323e56]">DayLyf</p>
-    </nav>
-    <section class="flex flex-col">
+<body class="font-['Quicksand'] overflow-x-hidden">
+
+    <section class="flex flex-col items-center h-screen">
+        <!-- Banner Start -->
+        <div id="banner" class="bg-amber-400 py-4 w-full flex flex-row items-center justify-center">
+            <button class="px-8" onclick="window.open('https://apps.apple.com/us/app/daylyf/id6449744195')">
+                Get the app for free <i class="fa-solid fa-arrow-up-right-from-square ml-2"></i>
+            </button>
+        </div>
+        <!-- Banner End -->
+        <!-- Navbar Start -->
+        <nav class="container mx-auto w-full flex flex-row items-center justify-between p-2">
+            <div class="flex flex-row items-center justify-center space-x-2">
+                <img src="/assets/Logo.webp" class="h-12" />
+                <p class="text-xl font-semibold -tw-ml-4 text-[#323e56]">DayLyf</p>
+            </div>
+            <div class="flex flex-row items-center justify-end space-x-4">
+                <a href="/index.html" class="px-4 py-4 text-lg no-underline text-[#323e56] font-semibold">Home</a>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+        <!-- Hero Section Start -->
         <div
-            class="flex md:hidden flex-col justify-between max-w-xl px-4 mx-auto lg:pt-16 lg:flex-row md:px-8 lg:max-w-screen-xl">
-            <div class="pt-16 mb-16 lg:mb-0 lg:pt-32 lg:max-w-lg lg:pr-5">
-                <div class="max-w-xl mb-6">
-                    <h2
-                        class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                        Discover the<br class="hidden md:block" />
-                        secrets of your
-                        <span class="inline-block text-deep-purple-accent-400">city</span>
-                    </h2>
-                    <p class="text-base text-gray-700 md:text-lg">
-                        Is price putting you off from travelling? <br /> The cost of living crisis has made travelling
-                        abroad
-                        too pricey. And finding cool local places is difficult, planning outings with friends is never
-                        easy, and keeping track of your memories is tiring. <br /><br /> DayLyf is here to make all of
-                        that simple and affordable - a local adventure and memory-making
-                        app for you and your friends.
-                    </p>
-                </div>
-                <div class="flex items-center">
-                    <button class="rounded-[12px] mt-0 md:mt-8 text-white md:text-[14pt]"
-                        onclick="window.open('https://apps.apple.com/us/app/daylyf/id6449744195')">
-                        <img src="/assets/Apple_Badge.svg" class="md:w-[200px]" />
-                    </button>
-                </div>
+            class="w-full flex flex-col md:flex-row items-center justify-center h-full bg-[#f7f1ed] py-6 px-2 md:space-x-2">
+            <!-- Image Left -->
+            <div class="hidden md:w-1/3 md:flex flex-row items-center justify-center">
+                <img src="https://daylyf-public.s3.eu-west-2.amazonaws.com/landing-page-assets/Image_2.png" />
             </div>
-            <div>
-                <img src="/assets/Image_Hero.svg"
-                    class="object-cover w-full h-full mx-auto lg:h-auto xl:mr-0 md:max-w-xl" alt="" />
+            <!-- Center Text -->
+            <div class="md:w-1/3 flex flex-col items-center justify-center">
+                <p class="text-5xl max-w-xl text-center text-[#323e56] font-['Poppins'] font-bold">
+                    Bored? No More
+                </p>
+                <p class="text-xl text-gray-700 text-center mt-6">Find hidden gems, plan activities, and keep your
+                    memories organised - All in one app</p>
+                <img src="/assets/Apple_Badge.svg"
+                    onclick="window.open('https://apps.apple.com/us/app/daylyf/id6449744195')" class="w-48 mt-8" />
+            </div>
+            <!-- Image Right -->
+            <div class="md:w-1/3 flex flex-row items-center justify-center">
+                <img src="https://daylyf-public.s3.eu-west-2.amazonaws.com/landing-page-assets/Image_1.png" />
             </div>
         </div>
-        <div>
-            <!-- Start -->
-            <div class="w-full">
-                <div
-                    class="absolute top-32 -left-1 md:top-0 -md:left-4 w-40 h-40 md:w-72 md:h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob">
+        <!-- Hero Section End -->
+    </section>
+    <section class="flex flex-col items-center">
+        <!-- Value Proposition Section Start -->
+        <div class="container mx-auto w-full mt-12 mb-32 py-24 md:py-32 px-2 grid grid-cols-1 md:grid-cols-3 gap-4">
+            <!-- Value 1 -->
+            <div class="flex flex-col w-full items-center justify-start">
+                <div class="flex flex-row items-center justify-start p-4 w-full space-x-2">
+                    <div class="w-1/3 object-fill border-2 border-black rounded-full bg-black">
+                        <img src="https://daylyf-public.s3.eu-west-2.amazonaws.com/landing-page-assets/Icon_2.svg" />
+                    </div>
+                    <p class="text-xl font-bold">Find more joy</p>
                 </div>
-                <div
-                    class="absolute top-16 -right-1 md:top-0 -md:right-4 w-40 h-40 md:w-72 md:h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000">
-                </div>
-                <div
-                    class="absolute -bottom-8 left-20 w-40 h-40 md:w-72 md:h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000">
-                </div>
-                <div class="m-8 relative space-y-4"></div>
+                <p class="text-lg font-normal px-4">
+                    Sit back and relax while we find all the places you can discover stressfree! More places + less
+                    planning = more joy
+                </p>
             </div>
-            <!-- End -->
-            <div class="hidden md:flex flex-col w-full md:flex-row items-center justify-center mb-4">
-                <div class="flex-none text-center md:text-start mb-6 md:mt-0 w-full md:w-5/12 rounded-lg p-6 z-50">
-                    <h1 class="text-4xl md:text-8xl mb-4 md:mb-12 md:py-4 font-['Fugaz_One']">
-                        Discover the Secrets of Your City</h1>
-                    <p class="mt-4 text-lg leading-8">
-                        Is price putting you off from travelling? <br /> The cost of living crisis has made travelling
-                        abroad
-                        too pricey. And finding cool local places is difficult, planning outings with friends is never
-                        easy, and keeping track of your memories is tiring. <br /><br /> DayLyf is here to make all of
-                        that simple and affordable - a local adventure and memory-making
-                        app for you and your friends.
-                    </p>
-                    <button class="rounded-[12px] mt-8 text-white text-[14pt]"
-                        onclick="window.open('https://apps.apple.com/us/app/daylyf/id6449744195')">
-                        <img src="/assets/Apple_Badge.svg" width="200px" />
-                    </button>
+            <!-- Value 2 -->
+            <div class="flex flex-col w-full items-center justify-start">
+                <div class="flex flex-row items-center justify-start p-4 w-full space-x-2">
+                    <div class="w-1/3 object-cover border-2 border-black rounded-full bg-black">
+                        <img src="https://daylyf-public.s3.eu-west-2.amazonaws.com/landing-page-assets/Icon_1.svg" />
+                    </div>
+                    <p class="text-xl font-bold">Get to explore more</p>
                 </div>
-                <div class="flex flex-col items-center justify-center w-full mt-12 md:mt-0 md:w-3/12 z-50">
-                    <img src="/assets/Image_Hero.svg" class="" />
+                <p class="text-lg font-normal px-4">
+                    Put your senses to absorb the wonderful local experiences and explore your inner self. Find what
+                    calls you more - night clubs or planetarium?
+                </p>
+            </div>
+            <!-- Value 3 -->
+            <div class="flex flex-col w-full items-center justify-start">
+                <div class="flex flex-row items-center justify-start p-4 w-full space-x-2">
+                    <div class="w-1/3 object-cover border-2 border-black rounded-full bg-black">
+                        <img src="https://daylyf-public.s3.eu-west-2.amazonaws.com/landing-page-assets/Icon_3.svg" />
+                    </div>
+                    <p class="text-xl font-bold">Make more memories</p>
                 </div>
+                <p class="text-lg font-normal px-4">
+                    Solo or with friends and family, you deserve your personal space and memories. Make and keep all
+                    your memories in one place.
+                </p>
             </div>
         </div>
-        <footer class="px-4 py-8 text-gray-800">
-            <div
-                class="container flex w-full items-center justify-center mx-auto space-y-4 sm:justify-between sm:space-y-0">
-                <div class="flex flex-col w-full items-center pr-3">
-                    <img src="/assets/logo_daylyf.webp" class="h-12 w-12 mb-4" />
-                    <ul class="flex flex-wrap items-center space-x-4 sm:space-x-8">
-                        <li>&copy; SwiftSkill Limited 2023</li>
-                    </ul>
-                    <a href="/privacy.html">Privacy Policy</a>
-                </div>
+        <!-- Value Proposition Section End -->
+        <!-- Reviews Section Start -->
+        <p class="text-4xl font-semibold text-[#323e56] font-['Poppins'] mt-12 mb-4 px-2 text-center">Hear what our
+            users have to say
+        </p>
+        <div
+            class="grid grid-cols-1 md:grid-cols-4 gap-y-4 md:gap-y-0 md:gap-x-2 py-6 md:py-24 md:px-60 md:bg-[url('https://daylyf-public.s3.eu-west-2.amazonaws.com/landing-page-assets/wave_1.svg')] bg-contain">
+            <div class="ml-8 md:ml-0 md:mb-8 flex flex-col items-start bg-slate-50 drop-shadow-md rounded-lg p-12">
+                <i class="fa-solid fa-quote-right self-end"></i>
+                <p class="font-semibold text-lg">
+                    I love how simple this app is and easy to use
+                </p>
+                <p class="text-sm font-semibold text-gray-600 self-end">
+                    - Fay
+                </p>
             </div>
-        </footer>
+            <div class="mr-8 md:mr-0 md:mt-8 flex flex-col items-start bg-slate-50 drop-shadow-md rounded-lg p-12">
+                <i class="fa-solid fa-quote-right self-end"></i>
+                <p class="font-semibold text-lg">
+                    The format is nice its definitely sleek and useful
+                </p>
+                <p class="text-sm font-semibold text-gray-600 self-end">
+                    - Yana
+                </p>
+            </div>
+            <div class="ml-8 md:ml-0 md:mb-8 flex flex-col items-start bg-slate-50 drop-shadow-md rounded-lg p-12">
+                <i class="fa-solid fa-quote-right self-end"></i>
+                <p class="font-semibold text-lg">
+                    I think the app looks cool and would be very helpful to use
+                </p>
+                <p class="text-sm font-semibold text-gray-600 self-end">
+                    - Anne
+                </p>
+            </div>
+            <div class="mr-8 md:mr-0 md:mt-8 flex flex-col items-start bg-slate-50 drop-shadow-md rounded-lg p-12">
+                <i class="fa-solid fa-quote-right self-end"></i>
+                <p class="font-semibold text-lg">
+                    I can see myself exploring more over weekends now
+                </p>
+                <p class="text-sm font-semibold text-gray-600 self-end">
+                    - Nikki
+                </p>
+            </div>
+        </div>
+        <div
+            class="flex flex-col items-center justify-center w-full text-[#323e56] mt-12 mb-12 px-2 py-24 md:bg-[url('https://daylyf-public.s3.eu-west-2.amazonaws.com/landing-page-assets/Background_Party_Opacity.svg')] ">
+            <p class="text-4xl md:text-6xl font-black text-center" id="counter"><span
+                    class="text-6xl md:text-8xl">10+</span> <br> New Places Added Everyday</p>
+            <p class="text-lg text-center mt-4">
+                It gets boring when the same places show up every time you open the app. So, we make sure you find new
+                ones and don't just jumble the old ones
+            </p>
+            <button class="mt-8 rounded-lg bg-slate-900 text-lg text-white px-8 py-4"
+                onclick="window.open('https://apps.apple.com/us/app/daylyf/id6449744195')">
+                <i class="fa-brands fa-apple text-white mr-2"></i> Download your DayLyf from the App Store
+            </button>
+        </div>
+        <!-- Reviews Section End -->
+    </section>
+    <footer class="px-4 py-8 text-gray-800">
+        <div
+            class="container flex w-full items-center justify-center mx-auto space-y-4 sm:justify-between sm:space-y-0">
+            <div class="flex flex-col w-full items-center pr-3">
+                <img src="/assets/logo_daylyf.webp" class="h-12 w-12 mb-4" />
+                <ul class="flex flex-wrap items-center space-x-4 sm:space-x-8">
+                    <li>&copy; SwiftSkill Limited 2023</li>
+                </ul>
+                <a href="/privacy.html">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
